@@ -9,7 +9,8 @@
  <link rel="stylesheet" type="text/css" href="./static/main.css" />
 </head>
 <body>
-    <div  style="color: blueviolet;">
+
+    <div  style="color: white;">
         <form action ="{{url_for('predict')}}" method="POST">
             <h3>Predictive Analysis</h3>
             <h3>Year</h3>
@@ -32,10 +33,9 @@
             </select>
             <br><br><button id="sub" type="submit ">Calculate the Selling Price</button>
             <br>
-
         </form>
         
-        <br><br><h3>{{ prediction_text }}<h3>  
-    </div>        
+        <br><br><h3>{{ prediction_text }}</h3>
+ </div>
 </body>
 </html>
