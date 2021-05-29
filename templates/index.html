@@ -11,14 +11,14 @@
 </head>
 <body>
     <div  style="color: blueviolet;">
-        <form action ="{{url_for('predict')}}" methods="POST">
+        <form action ="{{url_for('predict')}}" method="POST">
             <h3>Predictive Analysis</h3>
             <h3>Year</h3>
             <input  id="first" name="Year"  type="number" >
             <h3>What is the showroom price ?(In Naira)</h3><br><input id="second" name="Present_price"  required="required">
             <h3>How many kilometers Drived?</h3><br><input id="third"  name="Kms_Driven"  required="required">
             <h3>How many owners previously own the car?(0 or 1 or 3)</h3><br><input  id="fourth" name="Owner" required="required"> 
-            <h3>What is the fuel type</h3><br><select  id="fueling" name="Owner" required="required"> 
+            <h3>What is the fuel type</h3><br><select  id="fueling" name="Fuel_Type_Petrol" required="required"> 
                     <option  value="petrol">Petrol</option>
                     <option  value="Diesel">Diesel</option>
                     <option  value="CNG">CNG</option>
