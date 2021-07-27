@@ -6,3 +6,8 @@ six==1.16.0
 gunicorn
 uvloop
 httptools
+urllib3==1.26.4
+uvicorn==0.13.4
+Werkzeug==2.0.1
+wrapt==1.12.1
+python-multipart
